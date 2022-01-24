@@ -39,6 +39,7 @@
     "env": {
       "node": true
     },
+    "eslintIgnore": ["**/*.js","**/*.vue"],
     "extends": [
       "plugin:vue/essential",
       "@vue/standard"

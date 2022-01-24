@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+  box-sizing: border-box;
+  font-family: Pretendard;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid $default-text-color;
+  &:active {
+    outline: none;
+  }
+  &focus {
+    outline: none;
+  }
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  color: $primary-text-color;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
