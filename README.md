@@ -1,1 +1,1 @@
-vue, scss, vuex, router, eslint, babel
+vue, scss, vuex, router, eslint, babel, unit test
